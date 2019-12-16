@@ -30,9 +30,7 @@ package de.uniba.wiai.lspi.chord.console.command;
 
 import java.io.FileNotFoundException;
 import java.net.MalformedURLException;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 import de.uniba.wiai.lspi.chord.com.Node;
 import de.uniba.wiai.lspi.chord.com.local.ChordImplAccess;
@@ -96,6 +94,7 @@ public class Insert extends de.uniba.wiai.lspi.util.console.Command {
 		if ((node == null) || (node.length() == 0)) {
 
 			insertKeyValueFromTxt();
+			return;
 
 		}
 
@@ -227,7 +226,7 @@ public class Insert extends de.uniba.wiai.lspi.util.console.Command {
 					throw e;
 				}
 				this.out.println("Value '" + dataValue + "' with key '" + dataKey
-						+ "' inserted " + "successfully from node '" + node + "'.");
+						+ "' inserted " + "successfully from node '" + node.getNodeURL().getHost() + "'.id :"+node.getNodeID());
 			}
 
 		} catch (FileNotFoundException e) {
@@ -235,14 +234,70 @@ public class Insert extends de.uniba.wiai.lspi.util.console.Command {
 		}
 	}
 
+	//根据id查找要插入的节点
 	private Node findNode(String value) {
 		HashFunction hashFunction = HashFunction.getHashFunction();
 		ID valueId = hashFunction.createID(value.getBytes());
-		this.out.println("value="+value+",转换成16进制id："+valueId);
-//		int compareResult = nodeID.compareTo(valueId);
+		this.out.println("ID="+value+",转换成16进制id："+valueId);
+
+		List<Node> sortList = getSortNodeList();
+		//判断最大值和最小值
+		if (sortList != null && sortList.size()>0){
+
+			//和最小值比较
+			int compare = valueId.compareTo(sortList.get(0).getNodeID());
+			//如果比最小值还小,返回最小节点
+			if (compare<0){
+				return sortList.get(0);
+			}
+			//和最大值比较
+			compare = valueId.compareTo(sortList.get(sortList.size()-1).getNodeID());
+			//如果比最大值还大,返回最小节点
+			if (compare>0){
+				return sortList.get(0);
+			}
+
+		}
+		for (Node node : sortList) {
+			int compareResult = valueId.compareTo(node.getNodeID());
+			if (compareResult<0){
+				return node;
+			}
+		}
+
+
+
 
 
 		return null;
+	}
+
+	/**
+	 * 获得已排序的list集合
+	 */
+	private List<Node> getSortNodeList(){
+		Map eps = Registry.getRegistryInstance().lookupAll();
+
+		Map<ID, ThreadEndpoint> temp = new HashMap<ID, ThreadEndpoint>();
+		List<Node> list  =new ArrayList<Node>();
+
+		if (eps.size() != 0) {
+			Iterator valueIterator = eps.values().iterator();
+			ID[] ids = new ID[eps.size()];
+			int index = 0;
+			while (valueIterator.hasNext()) {
+				ThreadEndpoint ep = (ThreadEndpoint) valueIterator.next();
+				ids[index] = ep.getNodeID();
+				temp.put(ids[index], ep);
+				index++;
+			}
+			Arrays.sort(ids);
+			for (int i = 0; i < ids.length; i++) {
+				ThreadEndpoint ep = temp.get(ids[i]);
+				list.add(ep.getNode());
+			}
+		}
+		return list;
 	}
 
 	/**

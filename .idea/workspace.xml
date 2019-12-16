@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="666db68a-0c43-474c-8259-965b20cd24d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/com/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/com/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/console/command/CreateNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/console/command/CreateNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/console/command/Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/console/command/Insert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/service/impl/HashFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/service/impl/HashFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/service/impl/NodeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/service/impl/NodeImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/Endpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/Endpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/local/ChordImplAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/local/ChordImplAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/local/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/local/Registry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/local/ThreadEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/local/ThreadEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/socket/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/socket/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/socket/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/socket/RequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/socket/SocketEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/socket/SocketEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/socket/SocketProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/socket/SocketProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/CrashNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/CrashNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/CreateNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/CreateNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ListParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ListParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowFingerTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowFingerTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/data/ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/data/ID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/data/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/data/URL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/service/PropertiesLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/service/PropertiesLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/service/impl/HashFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/service/impl/HashFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/service/impl/NodeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/service/impl/NodeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/console/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/console/CommandFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/console/MemoryOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/console/MemoryOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/console/parser/CommandParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/console/parser/CommandParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/logging/Log4jLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/logging/Log4jLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/logging/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/logging/Logger.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +13,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="228" column="98" selection-start-line="228" selection-start-column="98" selection-end-line="228" selection-end-column="98" />
+              <folding>
+                <element signature="e#9350#9356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="99" column="9" selection-start-line="80" selection-start-column="8" selection-end-line="99" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -77,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -139,7 +132,7 @@
               <item name="uniba" type="462c0819:PsiDirectoryNode" />
               <item name="wiai" type="462c0819:PsiDirectoryNode" />
               <item name="lspi" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="chord" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-chord_1.0.5" type="b2602c69:ProjectViewProjectNode" />
@@ -149,8 +142,33 @@
               <item name="uniba" type="462c0819:PsiDirectoryNode" />
               <item name="wiai" type="462c0819:PsiDirectoryNode" />
               <item name="lspi" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="chord" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-chord_1.0.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-chord_1.0.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="uniba" type="462c0819:PsiDirectoryNode" />
+              <item name="wiai" type="462c0819:PsiDirectoryNode" />
+              <item name="lspi" type="462c0819:PsiDirectoryNode" />
+              <item name="chord" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-chord_1.0.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-chord_1.0.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="uniba" type="462c0819:PsiDirectoryNode" />
+              <item name="wiai" type="462c0819:PsiDirectoryNode" />
+              <item name="lspi" type="462c0819:PsiDirectoryNode" />
+              <item name="chord" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="Insert" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -163,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576457972000" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576474923740" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -174,6 +192,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA_workspace\open-chord_1.0.5\config" />
+      <recent name="E:\IDEA_workspace\open-chord_1.0.5\src\de\uniba\wiai" />
       <recent name="E:\IDEA_workspace\open-chord_1.0.5\src\de\uniba\wiai\lspi\chord\console\command" />
     </key>
   </component>
@@ -226,7 +246,7 @@
       <workItem from="1575942160039" duration="9816000" />
       <workItem from="1576026920150" duration="186000" />
       <workItem from="1576132781485" duration="827000" />
-      <workItem from="1576457608729" duration="183000" />
+      <workItem from="1576457608729" duration="7379000" />
     </task>
     <task id="LOCAL-00001" summary="提交:修改createnode">
       <created>1575855195526</created>
@@ -235,11 +255,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575855195526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="读文件">
+      <created>1576457928600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576457928600</updated>
+    </task>
+    <task id="LOCAL-00003" summary="读文件">
+      <created>1576457957325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576457957325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33764000" />
+    <option name="totallyTimeSpent" value="40899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,8 +286,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26799485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26799485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,16 +298,16 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36021507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42261103" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22072679" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.54777926" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32839838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,10 +325,28 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="提交:修改createnode" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交:修改createnode" />
+    <MESSAGE value="读文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="读文件" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java</url>
+          <line>260</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>node.getNodeID()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>preNode(Registry.getRegistryInstance().lookup(preNode.getNodeURL()).getNode(), otherID)</expression-string>
         <language-id>JAVA</language-id>
@@ -463,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/service/impl/ChordImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14994">
@@ -536,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="202" column="37" selection-start-line="202" selection-start-column="30" selection-end-line="202" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/util/console/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
@@ -584,6 +623,23 @@
             <element signature="e#5683#5684#0" expanded="true" />
             <element signature="e#13142#13143#0" expanded="true" />
             <element signature="e#13186#13187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="99" column="9" selection-start-line="80" selection-start-column="8" selection-end-line="99" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="228" column="98" selection-start-line="228" selection-start-column="98" selection-end-line="228" selection-end-column="98" />
+          <folding>
+            <element signature="e#9350#9356#0" expanded="true" />
           </folding>
         </state>
       </provider>
