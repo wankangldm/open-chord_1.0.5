@@ -1,3 +1,3 @@
 @echo off
 cls
-java -cp .;..\build\classes;..\config;..\lib\log4j.jar de.uniba.wiai.lspi.chord.console.Main %*
+java -cp .;..\dist\openchord_1.0.5.jar;..\config;..\lib\log4j.jar de.uniba.wiai.lspi.chord.console.Main %*

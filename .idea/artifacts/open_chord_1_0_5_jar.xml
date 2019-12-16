@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="open-chord_1.0.5:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/open_chord_1_0_5_jar</output-path>
+    <root id="archive" name="open-chord_1.0.5.jar">
+      <element id="module-output" name="open-chord_1.0.5" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

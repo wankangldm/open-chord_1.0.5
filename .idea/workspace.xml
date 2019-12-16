@@ -1,11 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="open-chord_1.0.5:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="666db68a-0c43-474c-8259-965b20cd24d4" name="Default Changelist" comment="">
+    <list default="true" id="666db68a-0c43-474c-8259-965b20cd24d4" name="Default Changelist" comment="读文件">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/CommunicationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/Endpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/EndpointStateListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/Proxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/RefsAndEntries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/Test$NodeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/local/ChordImplAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/local/InvocationListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/local/Registry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/local/ThreadEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/local/ThreadProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/rmi/ListRMIRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/rmi/RMIEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/rmi/RMIEndpoint_Stub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/rmi/RMIProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/rmi/RemoteNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/rmi/RemoteNodeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/rmi/RemoteRefsAndEntries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/InvocationThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/InvocationThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/MethodConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/RemoteNodeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/RemoteRefsAndEntries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/RequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/SocketEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/SocketProxy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/SocketProxy$WaitingThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/com/socket/SocketProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ChangeProtocol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/CrashNodes$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/CrashNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/CreateNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/Exit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/Insert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/InsertNetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/JoinNetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/LeaveNetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ListParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/RemoteChordNetworkAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/Remove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/RemoveNetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/Retrieve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/RetrieveNetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ShowEntries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ShowEntriesNetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ShowFingerTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ShowFingerTableNetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ShowNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ShowSuccessorList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ShutdownNodes$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/ShutdownNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/Wait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/entry/Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/console/command/entry/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/data/ID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/data/URL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/AsynChord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/Chord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/ChordCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/ChordFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/ChordRetrievalFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/PropertiesLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/Report.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/CheckPredecessorTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordFutureImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordImpl$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordImpl$ChordThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordInsertFuture$InsertTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordInsertFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordRemoveFuture$RemoveTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordRemoveFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordRetrievalFutureImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordRetrievalFutureImpl$RetrievalTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/ChordRetrievalFutureImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/FingerTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/FixFingerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/HashFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/NodeImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/NodeImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/NodeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/References.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/StabilizeTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/chord/service/impl/SuccessorList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/CommandFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/ConsoleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/ConsoleThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/DummyOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/ExecuteMacro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/MemoryOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/ShowOutputCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/CommandParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/CommandParser$JJCalls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/CommandParser$LookaheadSuccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/CommandParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/CommandParserConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/CommandParserTokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/ParseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/SimpleCharStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/console/parser/TokenMgrError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/logging/DummyLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/logging/Log4jLogger$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/logging/Log4jLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/logging/Logger$LogLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/logging/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/de/uniba/wiai/lspi/util/logging/SystemOutPrintlnLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/openchord_1.0.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/openchord_1.0.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/console/command/Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/open-chord_1.0.5/de/uniba/wiai/lspi/chord/console/command/Insert.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="out/" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +145,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="228" column="98" selection-start-line="228" selection-start-column="98" selection-end-line="228" selection-end-column="98" />
+            <state relative-caret-position="186">
+              <caret line="254" column="29" selection-start-line="254" selection-start-column="29" selection-end-line="254" selection-end-column="29" />
               <folding>
                 <element signature="e#9350#9356#0" expanded="true" />
               </folding>
@@ -27,10 +158,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/chord.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/console.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="99" column="9" selection-start-line="80" selection-start-column="8" selection-end-line="99" selection-end-column="9" />
+            <state relative-caret-position="1190">
+              <caret line="109" column="43" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -67,14 +216,16 @@
         <option value="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/com/Node.java" />
         <option value="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/CreateNodes.java" />
         <option value="$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java" />
+        <option value="$PROJECT_DIR$/config/chord.properties" />
+        <option value="$PROJECT_DIR$/bin/console.bat" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1592" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,17 +332,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576474931125" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576488337460" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20478724" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA_workspace\open-chord_1.0.5\dist" />
       <recent name="E:\IDEA_workspace\open-chord_1.0.5\config" />
       <recent name="E:\IDEA_workspace\open-chord_1.0.5\src\de\uniba\wiai" />
       <recent name="E:\IDEA_workspace\open-chord_1.0.5\src\de\uniba\wiai\lspi\chord\console\command" />
@@ -246,7 +398,7 @@
       <workItem from="1575942160039" duration="9816000" />
       <workItem from="1576026920150" duration="186000" />
       <workItem from="1576132781485" duration="827000" />
-      <workItem from="1576457608729" duration="7379000" />
+      <workItem from="1576457608729" duration="12828000" />
     </task>
     <task id="LOCAL-00001" summary="提交:修改createnode">
       <created>1575855195526</created>
@@ -269,11 +421,25 @@
       <option name="project" value="LOCAL" />
       <updated>1576457957325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="读文件">
+      <created>1576474937557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576474937557</updated>
+    </task>
+    <task id="LOCAL-00005" summary="读文件">
+      <created>1576486614993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576486614993</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40899000" />
+    <option name="totallyTimeSpent" value="46348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,10 +451,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="1592" y="-8" width="1696" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26799485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25488997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -298,12 +463,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36021507" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22072679" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5235532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.54777926" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.43622723" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -375,9 +540,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/console.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -629,18 +791,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/ShowNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="99" column="9" selection-start-line="80" selection-start-column="8" selection-end-line="99" selection-end-column="9" />
+        <state relative-caret-position="1190">
+          <caret line="109" column="43" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/uniba/wiai/lspi/chord/console/command/Insert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="228" column="98" selection-start-line="228" selection-start-column="98" selection-end-line="228" selection-end-column="98" />
+        <state relative-caret-position="186">
+          <caret line="254" column="29" selection-start-line="254" selection-start-column="29" selection-end-line="254" selection-end-column="29" />
           <folding>
             <element signature="e#9350#9356#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/chord.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/api/allclasses-frame.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/api/de/uniba/wiai/lspi/chord/com/local/ChordImplAccess.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/console.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -650,10 +832,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>open-chord_1.0.5:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20478724" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -665,7 +849,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20478724" />
               </list>
             </option>
           </splitter-proportions>
@@ -700,8 +884,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.20478724" />
               </list>
             </option>
           </splitter-proportions>
